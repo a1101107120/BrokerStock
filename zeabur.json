@@ -2,7 +2,7 @@
     "services": [
         {
             "name": "backend",
-            "directory": "backend",
+            "directory": "Broker/backend",
             "build": {
                 "type": "docker"
             },
@@ -12,7 +12,7 @@
         },
         {
             "name": "frontend",
-            "directory": "frontend",
+            "directory": "Broker/frontend",
             "build": {
                 "type": "docker"
             },
