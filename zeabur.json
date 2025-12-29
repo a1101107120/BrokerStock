@@ -1,0 +1,24 @@
+{
+    "services": [
+        {
+            "name": "backend",
+            "directory": "backend",
+            "build": {
+                "type": "docker"
+            },
+            "deploy": {
+                "port": 8000
+            }
+        },
+        {
+            "name": "frontend",
+            "directory": "frontend",
+            "build": {
+                "type": "docker"
+            },
+            "deploy": {
+                "port": 80
+            }
+        }
+    ]
+}
